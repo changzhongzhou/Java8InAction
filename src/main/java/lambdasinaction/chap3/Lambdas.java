@@ -13,7 +13,7 @@ public class Lambdas {
 		List<Apple> inventory = Arrays.asList(new Apple(80,"green"), new Apple(155, "green"), new Apple(120, "red"));
 
 		// [Apple{color='green', weight=80}, Apple{color='green', weight=155}]	
-		List<Apple> greenApples = filter(inventory, a -> "green".equals(a.getColor()));
+		List<Apple> greenApples = filter(inventory, b -> "green".equals(b.getColor()));
 		System.out.println(greenApples);
 
 
